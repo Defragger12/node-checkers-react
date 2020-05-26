@@ -1,0 +1,24 @@
+img.white_player {
+    position: absolute;
+    width: 15%;
+    bottom: 1%;
+    left: 1%;
+}
+
+img.black_player {
+    position: absolute;
+    width: 15%;
+    top: 1%;
+    right: 1%;
+}
+
+input#photo-input, input#file-input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+img.highlighted {
+    border: 5px solid red;
+    border-radius: 5px;
+}

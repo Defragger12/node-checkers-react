@@ -1,0 +1,25 @@
+.pleb_black {
+    background: url('/assets/images/piece/pleb/black_pleb.png') center no-repeat;
+}
+
+.pleb_white {
+    background: url('/assets/images/piece/pleb/white_pleb.png') center no-repeat;
+}
+
+.queen_black {
+    background: url('/assets/images/piece/queen/black_queen.png') center no-repeat;
+}
+
+.queen_white {
+    background: url('/assets/images/piece/queen/white_queen.png') center no-repeat;
+}
+
+.draggable, .droppable {
+    transition: width 10s;
+}
+
+div.square {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+}
